@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Atwix_PVF>
+            <version>0.0.1</version>
+        </Atwix_PVF>
+    </modules>
+    <global>
+        <blocks>
+            <atwix_pvf>
+                <class>Atwix_PVF_Block</class>
+            </atwix_pvf>
+        </blocks>
+        <models>
+            <atwix_pvf>
+                <class>Atwix_PVF_Model</class>
+            </atwix_pvf>
+        </models>
+    </global>
+    <adminhtml>
+        <events>
+            <adminhtml_block_html_before>
+                <observers>
+                    <atwix_pvf>
+                        <type>model</type>
+                        <class>Atwix_PVF_Model_Observer</class>
+                        <method>addPVFButton</method>
+                    </atwix_pvf>
+                </observers>
+            </adminhtml_block_html_before>
+        </events>
+    </adminhtml>
+</config>
