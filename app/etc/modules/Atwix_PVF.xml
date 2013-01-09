@@ -3,7 +3,7 @@
     <modules>
         <Atwix_PVF>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Atwix_PVF>
     </modules>
 </config>
