@@ -6,7 +6,7 @@ Facts
 -----
 - version: 0.0.1
 - extension key: Atwix_PVF
-- [extension on GitHub](https://github.com/Atwix/PVF
+- [extension on GitHub](https://github.com/Atwix/PVF)
 
 Description
 -----------
@@ -16,6 +16,7 @@ Requirements
 ------------
 - PHP >= 5.2.0
 - Mage_Core
+- Mage_Catalog
 
 Installation Instructions
 -------------------------
